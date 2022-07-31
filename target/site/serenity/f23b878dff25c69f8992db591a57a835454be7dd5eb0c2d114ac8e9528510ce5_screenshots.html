@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="98f21fc96a2876630fee59a9416fe42f9ae14f6e94236349ad756934637a5969.html">Register In Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="f23b878dff25c69f8992db591a57a835454be7dd5eb0c2d114ac8e9528510ce5.html">Register for Alejandro in uTest page. </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-07-2022 00:43</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register In Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I am a user, I want to register on the uTest platform.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register for Alejandro in uTest page.
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="5c6e23106cbe2afb66d6611f49f0317f248f7996ff43b8e8f065fb8b82f844b9.png" title=" Given than Alejandro wants to register in utest" width="1366"/>
+                <img src="5c6e23106cbe2afb66d6611f49f0317f248f7996ff43b8e8f065fb8b82f844b9.png" title=" Alejandro open up" width="1366"/>
+                <img src="5c6e23106cbe2afb66d6611f49f0317f248f7996ff43b8e8f065fb8b82f844b9.png" title=" Alejandro opens the Choucair utest page" width="1366"/>
+                <img src="1235dfb6360bfebd5beae9c4dc535d6586f72839a8295c037f866abaca839262.png" title=" Alejandro clicks on Join Today Button" width="1366"/>
+                <img src="1235dfb6360bfebd5beae9c4dc535d6586f72839a8295c037f866abaca839262.png" title=" Alejandro open up (completed)" width="1366"/>
+                <img src="0e356ed8a07436ab28c967659936657eca1080ab9eecb580b99ec047bd43136f.png" title=" Given than Alejandro wants to register in utest (completed)" width="1366"/>
+                <img src="5af8ae46bc3158fc65c450853c7b0cbe5ac75b0a356efb13bbcf7942ed2ce6cf.png" title=" When the user enters the required data
+| strFirstName | strLastName | strEmail | strBirthMonth | strBirthDay | strBirthYear | strCity | strZip | strCountry | strBrand | strModel | strOS | strPassword |
+| Alejandro | Betancur | alejobetancur2@gmail.com | June | 2 | 1991 | Medell&iacute;n | 050047 | Colombia | Samsung | Galaxy Note 10 | Android 12 | AleJo345216* |" width="1366"/>
+                <img src="5af8ae46bc3158fc65c450853c7b0cbe5ac75b0a356efb13bbcf7942ed2ce6cf.png" title=" Alejandro fill" width="1366"/>
+                <img src="5af8ae46bc3158fc65c450853c7b0cbe5ac75b0a356efb13bbcf7942ed2ce6cf.png" title=" Alejandro enters 'Alejandro' into First Name" width="1366"/>
+                <img src="0bccd1572268ed71fbe644e5c69bd1c4852d733e7af9d086011d57017a3ab7f2.png" title=" Alejandro enters 'Betancur' into Last Name" width="1366"/>
+                <img src="fe0447ce50d5ffe0c187554009a76b04548e2af230b69029af684af0fd136de2.png" title=" Alejandro enters 'alejobetancur2@gmail.com' into Email" width="1366"/>
+                <img src="c0c570242edeff98eefd1b4365462f4cddfe074c2f53ba3c9ef2b13ba696e1ea.png" title=" Alejandro select June on Birth Month" width="1366"/>
+                <img src="2592b215f795f7adb0e04418c555d1863e894e710e289a7d6aae9a27ad6eb9bb.png" title=" Alejandro select 2 on Birth Day" width="1366"/>
+                <img src="620bdef8ae216bbacf1842cd824908b42d37981f3a5027edb57c2401205f51eb.png" title=" Alejandro select 1991 on Birth Year" width="1366"/>
+                <img src="dc291d398eea9297a42158705fa0bd11b322a36d11397c0fdf62a4f1ac9d50f1.png" title=" Alejandro clicks on Go to next page" width="1366"/>
+                <img src="dc291d398eea9297a42158705fa0bd11b322a36d11397c0fdf62a4f1ac9d50f1.png" title=" Alejandro fill (completed)" width="1366"/>
+                <img src="d92616ab74f6eaaff39632da79b0d44f3de65081cf2c9d0248cd482ffdd60355.png" title=" Alejandro fill location" width="1366"/>
+                <img src="d92616ab74f6eaaff39632da79b0d44f3de65081cf2c9d0248cd482ffdd60355.png" title=" Alejandro enters 'Medell&iacute;n' into City" width="1366"/>
+                <img src="30e4509abe9f57f11d0c4f4d2e96239370bab54a3192407fcd08d30bcfbd9227.png" title=" Alejandro types 'ARROW_DOWN' in City" width="1366"/>
+                <img src="30fd4f61b1e0038f4e49ee06c2e7fe0912491e0096a4aed7809b6bab3f5897f8.png" title=" Alejandro types 'ENTER' in City" width="1366"/>
+                <img src="cae501a69a426bf85741913c85893de74573da1abd98000d11e9247f82315817.png" title=" Alejandro enters '050047' into Zip" width="1366"/>
+                <img src="0afef2b881a180f2d431acc32b9e00cecbc8a82da18f834d8f3c1394017e2726.png" title=" Alejandro clicks on Country Container" width="1366"/>
+                <img src="05c2328a08b944e9ff76e51d620c5c5e3e7a50925455f739ee29f31f7158f3db.png" title=" Alejandro enters 'Colombia' then hits ARROW_DOWN and ENTER into Country" width="1366"/>
+                <img src="51511b24e3709304a5e3cf5ded8536c4110bd6ec2264cdf83102b5015622b508.png" title=" Alejandro clicks on Go to next devices" width="1366"/>
+                <img src="51511b24e3709304a5e3cf5ded8536c4110bd6ec2264cdf83102b5015622b508.png" title=" Alejandro fill location (completed)" width="1366"/>
+                <img src="e0141a048ef842b1e8f8317ec6b755b676bf1a0649b090227e972abf7677262c.png" title=" Alejandro fill device" width="1366"/>
+                <img src="e0141a048ef842b1e8f8317ec6b755b676bf1a0649b090227e972abf7677262c.png" title=" Alejandro clicks on Brand container" width="1366"/>
+                <img src="42c9ebe9b43f901c0fc2e6d05cc499843d79d9b2005804a65d131a92743e6380.png" title=" Alejandro enters 'Samsung' then hits ARROW_DOWN and ENTER into Brand" width="1366"/>
+                <img src="f04908bd147296f84868257950741dfdfd8d95c1a4533157a3260e8a9d5148d1.png" title=" Alejandro clicks on Model Container" width="1366"/>
+                <img src="d3304997f421e1a8025b3a868132b996d894d200f3b6959383ae433a9ab4ce14.png" title=" Alejandro enters 'Galaxy Note 10' then hits ARROW_DOWN and ENTER into Model" width="1366"/>
+                <img src="b44c8631c923149c74bd35ec60127f3ce110a5e05f93e310d0e713fe4887704b.png" title=" Alejandro clicks on Os Container" width="1366"/>
+                <img src="5cb0a840cc9183c66f6aff56a24070deb420a26b4abdff7b1a812283c3842a37.png" title=" Alejandro enters 'Android 12' then hits ARROW_DOWN and ENTER into OS" width="1366"/>
+                <img src="f0c707bfd6d2f800716dbd3889a241fbe2a3b2cd8e2a684eeb35df35b21c8a6f.png" title=" Alejandro clicks on Last Step" width="1366"/>
+                <img src="f0c707bfd6d2f800716dbd3889a241fbe2a3b2cd8e2a684eeb35df35b21c8a6f.png" title=" Alejandro fill device (completed)" width="1366"/>
+                <img src="66a1685b2017752aed8f8e00610e4c92875c5b68d50399309c7caf4ef3c4ba7a.png" title=" Alejandro fill last step" width="1366"/>
+                <img src="66a1685b2017752aed8f8e00610e4c92875c5b68d50399309c7caf4ef3c4ba7a.png" title=" Alejandro enters 'AleJo345216*' into Password" width="1366"/>
+                <img src="9e70f3709aae9cf20998c11554acedb87671da006e09a0a2e028a9d94098df13.png" title=" Alejandro enters 'AleJo345216*' into Confirm Password" width="1366"/>
+                <img src="76e8a7c7dde58e7677343e091411c6c6e7c7e386b0f3b3d09276858ed065bc92.png" title=" Alejandro clicks on Stay Informed" width="1366"/>
+                <img src="5c11e1e7640a2b84c53fce3c0625276090a62fb3b9ca8045453650c053f4999e.png" title=" Alejandro clicks on Terms of use" width="1366"/>
+                <img src="ee9dca4cc3b73d117db7e706c67092e562a3ca1e9a6b3a41b5d97b09a5439fda.png" title=" Alejandro clicks on Privacy and security Policy" width="1366"/>
+                <img src="a68ee2cbcff5cec0cac24b411ce89e2f07f9319cbec6b15e77ac9985622fb19b.png" title=" Alejandro clicks on Complete Setup" width="1366"/>
+                <img src="a68ee2cbcff5cec0cac24b411ce89e2f07f9319cbec6b15e77ac9985622fb19b.png" title=" Alejandro fill last step (completed)" width="1366"/>
+                <img src="a68ee2cbcff5cec0cac24b411ce89e2f07f9319cbec6b15e77ac9985622fb19b.png" title=" When the user enters the required data
+| strFirstName | strLastName | strEmail | strBirthMonth | strBirthDay | strBirthYear | strCity | strZip | strCountry | strBrand | strModel | strOS | strPassword |
+| Alejandro | Betancur | alejobetancur2@gmail.com | June | 2 | 1991 | Medell&iacute;n | 050047 | Colombia | Samsung | Galaxy Note 10 | Android 12 | AleJo345216* | (completed)" width="1366"/>
+                <img src="0a7f1c6ba5557488473140b4f7e4f71ae48349e898440c6468d5a8fbf09e414a.png" title=" Then registration is completed
+| strCompleteSetup |
+| Complete Setup |" width="1366"/>
+                <img src="0a7f1c6ba5557488473140b4f7e4f71ae48349e898440c6468d5a8fbf09e414a.png" title=" Then reply" width="1366"/>
+                <img src="0a7f1c6ba5557488473140b4f7e4f71ae48349e898440c6468d5a8fbf09e414a.png" title=" Then registration is completed
+| strCompleteSetup |
+| Complete Setup | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
